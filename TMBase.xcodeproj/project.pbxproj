@@ -10,6 +10,21 @@
 		3C1F1F7B210B2D1000175535 /* TMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1F1F71210B2D1000175535 /* TMBase.framework */; };
 		3C1F1F80210B2D1000175535 /* TMBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F7F210B2D1000175535 /* TMBaseTests.swift */; };
 		3C1F1F82210B2D1000175535 /* TMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1F1F74210B2D1000175535 /* TMBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1F1F8C210B2D8600175535 /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F8B210B2D8600175535 /* BaseObject.swift */; };
+		3C1F1F91210B2EB600175535 /* TouristSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F90210B2EB600175535 /* TouristSite.swift */; };
+		3C85222A210B493D0075A50D /* ResponseObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852229210B493D0075A50D /* ResponseObj.swift */; };
+		3C85222C210B497C0075A50D /* ResponseAry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C85222B210B497C0075A50D /* ResponseAry.swift */; };
+		3C85222E210B49870075A50D /* ResponseStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C85222D210B49870075A50D /* ResponseStr.swift */; };
+		3C852230210B49B60075A50D /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C85222F210B49B60075A50D /* BaseResponse.swift */; };
+		3C852232210B4AB30075A50D /* TouristSiteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852231210B4AB30075A50D /* TouristSiteResult.swift */; };
+		3C852235210B4D050075A50D /* TouristSiteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852234210B4D050075A50D /* TouristSiteDataManager.swift */; };
+		3C852238210B4DCD0075A50D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852237210B4DCD0075A50D /* Network.swift */; };
+		3C85223B210B4EB50075A50D /* TtsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C85223A210B4EB50075A50D /* TtsApi.swift */; };
+		3C85223D210B5B770075A50D /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C85223C210B5B770075A50D /* CacheManager.swift */; };
+		3C852240210B5BDC0075A50D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C85223F210B5BDC0075A50D /* Logger.swift */; };
+		3C852242210B5BF50075A50D /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852241210B5BF50075A50D /* LogLevel.swift */; };
+		3CA78F43211416CC00A2501C /* ObservableType+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F42211416CC00A2501C /* ObservableType+extension.swift */; };
+		C23765C56F0A0D554BA0AC6E /* Pods_Dependency_TMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0645306F282686434B8C106 /* Pods_Dependency_TMBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +38,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121B029387A5C79CEC28A663 /* Pods-Dependency-TMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependency-TMBase.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Dependency-TMBase/Pods-Dependency-TMBase.release.xcconfig"; sourceTree = "<group>"; };
+		141A495B31661B80901F3A7B /* Pods-Dependency-TMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependency-TMBase.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Dependency-TMBase/Pods-Dependency-TMBase.debug.xcconfig"; sourceTree = "<group>"; };
 		3C1F1F71210B2D1000175535 /* TMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1F1F74210B2D1000175535 /* TMBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBase.h; sourceTree = "<group>"; };
 		3C1F1F75210B2D1000175535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C1F1F7A210B2D1000175535 /* TMBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1F1F7F210B2D1000175535 /* TMBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBaseTests.swift; sourceTree = "<group>"; };
 		3C1F1F81210B2D1000175535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1F1F8B210B2D8600175535 /* BaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
+		3C1F1F90210B2EB600175535 /* TouristSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSite.swift; sourceTree = "<group>"; };
+		3C852229210B493D0075A50D /* ResponseObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObj.swift; sourceTree = "<group>"; };
+		3C85222B210B497C0075A50D /* ResponseAry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAry.swift; sourceTree = "<group>"; };
+		3C85222D210B49870075A50D /* ResponseStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStr.swift; sourceTree = "<group>"; };
+		3C85222F210B49B60075A50D /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		3C852231210B4AB30075A50D /* TouristSiteResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSiteResult.swift; sourceTree = "<group>"; };
+		3C852234210B4D050075A50D /* TouristSiteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSiteDataManager.swift; sourceTree = "<group>"; };
+		3C852237210B4DCD0075A50D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3C85223A210B4EB50075A50D /* TtsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtsApi.swift; sourceTree = "<group>"; };
+		3C85223C210B5B770075A50D /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		3C85223F210B5BDC0075A50D /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3C852241210B5BF50075A50D /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		3CA78F42211416CC00A2501C /* ObservableType+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+extension.swift"; sourceTree = "<group>"; };
+		C0645306F282686434B8C106 /* Pods_Dependency_TMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dependency_TMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23765C56F0A0D554BA0AC6E /* Pods_Dependency_TMBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +89,8 @@
 				3C1F1F73210B2D1000175535 /* TMBase */,
 				3C1F1F7E210B2D1000175535 /* TMBaseTests */,
 				3C1F1F72210B2D1000175535 /* Products */,
+				42332E6CDF5AD00472346072 /* Pods */,
+				544CD63A0CF0283618283DBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +106,12 @@
 		3C1F1F73210B2D1000175535 /* TMBase */ = {
 			isa = PBXGroup;
 			children = (
+				3CA78F41211416A200A2501C /* Extensions */,
+				3C85223E210B5BBA0075A50D /* Logger */,
+				3C852239210B4EA10075A50D /* WebAPIs */,
+				3C852236210B4DB90075A50D /* Networking */,
+				3C852233210B4CE70075A50D /* DataManager */,
+				3C1F1F8D210B2D8A00175535 /* Models */,
 				3C1F1F74210B2D1000175535 /* TMBase.h */,
 				3C1F1F75210B2D1000175535 /* Info.plist */,
 			);
@@ -84,6 +125,79 @@
 				3C1F1F81210B2D1000175535 /* Info.plist */,
 			);
 			path = TMBaseTests;
+			sourceTree = "<group>";
+		};
+		3C1F1F8D210B2D8A00175535 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F1F8B210B2D8600175535 /* BaseObject.swift */,
+				3C1F1F90210B2EB600175535 /* TouristSite.swift */,
+				3C852229210B493D0075A50D /* ResponseObj.swift */,
+				3C85222B210B497C0075A50D /* ResponseAry.swift */,
+				3C85222D210B49870075A50D /* ResponseStr.swift */,
+				3C85222F210B49B60075A50D /* BaseResponse.swift */,
+				3C852231210B4AB30075A50D /* TouristSiteResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C852233210B4CE70075A50D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				3C852234210B4D050075A50D /* TouristSiteDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		3C852236210B4DB90075A50D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3C852237210B4DCD0075A50D /* Network.swift */,
+				3C85223C210B5B770075A50D /* CacheManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3C852239210B4EA10075A50D /* WebAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				3C85223A210B4EB50075A50D /* TtsApi.swift */,
+			);
+			path = WebAPIs;
+			sourceTree = "<group>";
+		};
+		3C85223E210B5BBA0075A50D /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				3C85223F210B5BDC0075A50D /* Logger.swift */,
+				3C852241210B5BF50075A50D /* LogLevel.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		3CA78F41211416A200A2501C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CA78F42211416CC00A2501C /* ObservableType+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42332E6CDF5AD00472346072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				141A495B31661B80901F3A7B /* Pods-Dependency-TMBase.debug.xcconfig */,
+				121B029387A5C79CEC28A663 /* Pods-Dependency-TMBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		544CD63A0CF0283618283DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0645306F282686434B8C106 /* Pods_Dependency_TMBase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C1F1F85210B2D1000175535 /* Build configuration list for PBXNativeTarget "TMBase" */;
 			buildPhases = (
+				E5FF72372D8A0F5057E8C754 /* [CP] Check Pods Manifest.lock */,
 				3C1F1F6C210B2D1000175535 /* Sources */,
 				3C1F1F6D210B2D1000175535 /* Frameworks */,
 				3C1F1F6E210B2D1000175535 /* Headers */,
 				3C1F1F6F210B2D1000175535 /* Resources */,
+				9774539A21E77D211D1C5956 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +264,7 @@
 				TargetAttributes = {
 					3C1F1F70210B2D1000175535 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					3C1F1F79210B2D1000175535 = {
@@ -191,11 +308,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9774539A21E77D211D1C5956 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Dependency-TMBase/Pods-Dependency-TMBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FF72372D8A0F5057E8C754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dependency-TMBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C1F1F6C210B2D1000175535 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C85223B210B4EB50075A50D /* TtsApi.swift in Sources */,
+				3C85222E210B49870075A50D /* ResponseStr.swift in Sources */,
+				3C85222A210B493D0075A50D /* ResponseObj.swift in Sources */,
+				3C1F1F8C210B2D8600175535 /* BaseObject.swift in Sources */,
+				3C852235210B4D050075A50D /* TouristSiteDataManager.swift in Sources */,
+				3C852232210B4AB30075A50D /* TouristSiteResult.swift in Sources */,
+				3CA78F43211416CC00A2501C /* ObservableType+extension.swift in Sources */,
+				3C852242210B5BF50075A50D /* LogLevel.swift in Sources */,
+				3C85223D210B5B770075A50D /* CacheManager.swift in Sources */,
+				3C852240210B5BDC0075A50D /* Logger.swift in Sources */,
+				3C852238210B4DCD0075A50D /* Network.swift in Sources */,
+				3C852230210B49B60075A50D /* BaseResponse.swift in Sources */,
+				3C1F1F91210B2EB600175535 /* TouristSite.swift in Sources */,
+				3C85222C210B497C0075A50D /* ResponseAry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +434,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -321,10 +489,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -333,7 +502,9 @@
 		};
 		3C1F1F86210B2D1000175535 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141A495B31661B80901F3A7B /* Pods-Dependency-TMBase.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = studio.tmaker.TMBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,7 +526,9 @@
 		};
 		3C1F1F87210B2D1000175535 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121B029387A5C79CEC28A663 /* Pods-Dependency-TMBase.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +550,7 @@
 		3C1F1F89210B2D1000175535 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
 				INFOPLIST_FILE = TMBaseTests/Info.plist;
@@ -390,6 +565,7 @@
 		3C1F1F8A210B2D1000175535 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
 				INFOPLIST_FILE = TMBaseTests/Info.plist;
